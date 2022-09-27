@@ -9,10 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @class ViewController;
+@class DMWebBrowserViewController;
 
 @interface DMAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (strong, nonatomic) ViewController *viewController;
+//@property (strong, nonatomic) ViewController *viewController;
+@property (strong, nonatomic) DMWebBrowserViewController *webBrowser;
 
 @end

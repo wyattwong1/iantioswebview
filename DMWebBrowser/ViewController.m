@@ -38,7 +38,7 @@
 - (void)openWebBrowser
 {
     DMWebBrowserViewController *webBrowser = [[DMWebBrowserViewController alloc]
-                                              initWithURL:[NSURL URLWithString:@"http://github.com/dimoreira"]
+                                              initWithURL:[NSURL URLWithString:@"https://sypt.psax.com.cn/m/#login"]
                                               startLoadingWithBlock:^{
                                                   NSLog(@"start loading web browser page");
                                               } andEndLoadingWithBlock:^{

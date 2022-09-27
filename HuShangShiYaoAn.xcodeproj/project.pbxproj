@@ -17,6 +17,7 @@
 		A3F4CE4B16C07E6400F0A4F6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3F4CE4A16C07E6400F0A4F6 /* Default-568h@2x.png */; };
 		A3F4CE5316C07EB200F0A4F6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F4CE5216C07EB200F0A4F6 /* ViewController.m */; };
 		A3F4CE5716C0828200F0A4F6 /* DMWebBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F4CE5616C0828200F0A4F6 /* DMWebBrowserViewController.m */; };
+		B5798AAE28E3351E003E0B41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5798AAD28E3351E003E0B41 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		A3F4CE5216C07EB200F0A4F6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A3F4CE5516C0828200F0A4F6 /* DMWebBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMWebBrowserViewController.h; path = DMWebBrowserViewController/DMWebBrowserViewController.h; sourceTree = SOURCE_ROOT; };
 		A3F4CE5616C0828200F0A4F6 /* DMWebBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMWebBrowserViewController.m; path = DMWebBrowserViewController/DMWebBrowserViewController.m; sourceTree = SOURCE_ROOT; };
+		B5798AAD28E3351E003E0B41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		A3F4CE3B16C07E6400F0A4F6 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B5798AAD28E3351E003E0B41 /* Assets.xcassets */,
 				A3F4CE3C16C07E6400F0A4F6 /* HuShangShiYaoAn-Info.plist */,
 				A3F4CE4016C07E6400F0A4F6 /* main.m */,
 				A3F4CE4216C07E6400F0A4F6 /* HuShangShiYaoAn-Prefix.pch */,
@@ -111,7 +114,8 @@
 				A3F4CE5516C0828200F0A4F6 /* DMWebBrowserViewController.h */,
 				A3F4CE5616C0828200F0A4F6 /* DMWebBrowserViewController.m */,
 			);
-			path = DMWebBrowserViewController;
+			name = DMWebBrowserViewController;
+			path = ../DMWebBrowserViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +150,7 @@
 				TargetAttributes = {
 					A3F4CE3016C07E6400F0A4F6 = {
 						DevelopmentTeam = 2VPK7677LT;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -175,6 +180,7 @@
 				A3F4CE4716C07E6400F0A4F6 /* Default.png in Resources */,
 				A3F4CE4916C07E6400F0A4F6 /* Default@2x.png in Resources */,
 				A3F4CE4B16C07E6400F0A4F6 /* Default-568h@2x.png in Resources */,
+				B5798AAE28E3351E003E0B41 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,7 +213,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Liang Qiao (2VPK7677LT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Liang Qiao (2VPK7677LT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -239,7 +246,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Liang Qiao (2VPK7677LT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Liang Qiao (2VPK7677LT)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
@@ -256,11 +264,22 @@
 		A3F4CE4F16C07E6400F0A4F6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 2VPK7677LT;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Liang Qiao (2VPK7677LT)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2VPK7677LT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMWebBrowser/HuShangShiYaoAn-Prefix.pch";
 				INFOPLIST_FILE = "DMWebBrowser/HuShangShiYaoAn-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ahqlstny;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -268,11 +287,22 @@
 		A3F4CE5016C07E6400F0A4F6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				DEVELOPMENT_TEAM = 2VPK7677LT;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Liang Qiao (2VPK7677LT)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = 2VPK7677LT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "DMWebBrowser/HuShangShiYaoAn-Prefix.pch";
 				INFOPLIST_FILE = "DMWebBrowser/HuShangShiYaoAn-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = ahqlstny;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -287,7 +317,7 @@
 				A3F4CE4D16C07E6400F0A4F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		A3F4CE4E16C07E6400F0A4F6 /* Build configuration list for PBXNativeTarget "HuShangShiYaoAn" */ = {
 			isa = XCConfigurationList;
@@ -296,7 +326,7 @@
 				A3F4CE5016C07E6400F0A4F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

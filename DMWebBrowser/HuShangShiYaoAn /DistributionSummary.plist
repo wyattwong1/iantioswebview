@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>HuShangShiYaoAn.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1.0</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>45541AA8D793ADEA4B0C969828FF0381CE3F6CD8</string>
+				<key>dateExpires</key>
+				<string>2023/9/26</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>2VPK7677LT.com.iant.hssya</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>2VPK7677LT</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>HuShangShiYaoAn.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>ba4f7b61-c7ec-4cd5-bc05-d127c976764d</string>
+				<key>dateExpires</key>
+				<string>2023/9/26</string>
+				<key>name</key>
+				<string>ahqlstny</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>2VPK7677LT</string>
+				<key>name</key>
+				<string>Liang Qiao</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

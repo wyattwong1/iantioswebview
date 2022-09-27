@@ -51,7 +51,7 @@
     [navItem setLeftBarButtonItem:barButtonItem];
     [navItem setRightBarButtonItem:refreshButtonItem];
     [_navBar setItems:[NSArray arrayWithObject:navItem]];
-    [self.view addSubview:_navBar];
+    //[self.view addSubview:_navBar];
     
     // Loads the UIWebView
     _webView = [[UIWebView alloc] initWithFrame:CGRectMake(0.0, _navBar.frame.size.height, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height)];

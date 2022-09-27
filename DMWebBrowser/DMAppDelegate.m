@@ -8,6 +8,7 @@
 
 #import "DMAppDelegate.h"
 #import "ViewController.h"
+#import "DMWebBrowserViewController.h"
 
 @implementation DMAppDelegate
 
@@ -15,9 +16,21 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    self.viewController = [[ViewController alloc] init];
-    self.window.rootViewController = self.viewController;
+    //self.viewController = [[ViewController alloc] init];
+    //self.window.rootViewController = self.viewController;
+    //[self.window makeKeyAndVisible];
+    
+    self.webBrowser = [[DMWebBrowserViewController alloc]
+                                              initWithURL:[NSURL URLWithString:@"https://sypt.psax.com.cn/m/#login"]
+                                              startLoadingWithBlock:^{
+                                                  NSLog(@"start loading web browser page");
+                                              } andEndLoadingWithBlock:^{
+                                                  NSLog(@"end loading web browser page");
+                                              }];
+    //[self.webBrowser setNavBarColor:[UIColor orangeColor]];
+    self.window.rootViewController = self.webBrowser;
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
